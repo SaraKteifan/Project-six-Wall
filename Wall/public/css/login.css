@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+  
+  body{
+  
+
+    background-color:rgb(255, 255, 255);
+    background: linear-gradient(-45deg, #000dff, #f82777, #15b0e9, #1edbaf);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+     
+  
+  }
+  .cotainer{
+    margin-top: 150px;
+  }
+  main{
+ height: 70vh;
+    margin-bottom: 60px;
+  }
+  .navbar-laravel
+  {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+     
+  }
+  .navbar-brand , .nav-link, .my-form, .login-form
+  {
+      font-family: Raleway, sans-serif;
+  }
+     
+   .form-control{
+    margin-bottom: 40px;
+   }   
+      
+ 
+  .my-form
+  {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      
+     
+      
+    
+  }
+  .my-form .row
+  {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .navbar a{
+    color:#fff !important
+  }
+  .borderXwidth a:before, div.borderXwidth a:after{
+    background-color: #fff !important;
+  }
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+  .login-form .row
+  {
+      margin-left: 0;
+      margin-right: 0;
+      opacity: .9;   
+  }
+  .have-account{
+    margin-top: 20px;
+  }
+  .have-account a{
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .footer-copyright{
+    background-color: transparent !important;
+  }
+  .card{
+    width: 70%;
+    margin: auto;
+  }

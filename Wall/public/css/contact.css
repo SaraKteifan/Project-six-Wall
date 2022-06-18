@@ -1,0 +1,45 @@
+form input{
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  padding: 5px 10px;
+  border-color: #d7d4d4;
+  background-color: transparent;
+}
+label{
+
+  color: #ea203e;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+
+  input{  
+    border-radius: 8px;
+    padding-block: 16px;
+    border-color: #e7e7e7;
+       }
+.col-lg-4{
+  margin-right: 150px;
+}
+.btn{
+  background-color: #d73e49;
+  padding: 10px 50px;
+  margin-top: 50px;
+  color: #fff;
+}
+.breadcrumbNav{
+  background: rgb(0 0 0 / 10%) !important;
+   padding: 9px 40px;
+   margin-bottom: 100px;
+}
+.breadcrumb{
+  --bs-breadcrumb-margin-bottom:0!important;
+  padding:0!important;
+}
+.first-a{
+color: gray;
+   text-decoration: none;}
+   .first-a:hover{
+    color: #d73e49;
+   }

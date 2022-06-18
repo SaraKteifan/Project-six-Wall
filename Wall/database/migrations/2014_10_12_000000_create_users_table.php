@@ -22,11 +22,11 @@ class CreateUsersTable extends Migration
             $table->string('phone_number');
             $table->string('city');
             $table->string('address');
-            $table->boolean('is_login');
-            $table->boolean('is_organization');
-            $table->boolean('is_admin');
-            $table->rememberToken();
+            $table->boolean('is_login')->default(0);
+            $table->boolean('is_organization')->default(0);
+            $table->boolean('is_admin')->default(0);
             $table->boolean('is_deleted')->default(0);
+            $table->rememberToken();
             $table->timestamps();
         });
     }

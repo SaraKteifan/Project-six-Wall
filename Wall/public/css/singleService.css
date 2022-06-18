@@ -1,0 +1,121 @@
+
+.breadcrumbNav{
+   background: rgb(0 0 0 / 10%) !important;
+    padding: 9px 40px;
+    margin-bottom: 100px;
+}
+.breadcrumb{
+   --bs-breadcrumb-margin-bottom:0!important;
+   padding:0!important;
+}
+.first-a{
+color: gray;
+    text-decoration: none;}
+    .first-a:hover{
+      color: #d73e49;
+     }
+.col-lg-6 span{
+   font-size: 25px;
+   display: block;
+   margin-bottom: 50px;
+}
+.col-lg-6 b{
+   color: #db3c4b;
+  
+}
+.col-lg-6 .btn{
+   background-color: #d73e49;
+   color: white;
+   padding: 15px 20px;
+   margin-top: 20px;
+}
+.content{
+   margin-bottom: 100px;
+}
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-12 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.services h1, .services h2, .services h3, .services h4, .services h5, .services h6 {
+  color: #3e4555;
+}
+
+.services h6 {
+		line-height: 22px;
+    font-size: 18px;
+}
+
+.services .font-weight-medium {
+	font-weight: 500;
+}
+
+.services .badge {
+	line-height: 14px;
+}
+
+.services .badge-info {
+	background: #188ef4;
+}
+
+.services .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.services .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.services .img-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.3);
+}
+
+.services .wrap-service12 .img-hover {
+	-webkit-transition: 0.2s ease-in;
+   -o-transition: 0.2s ease-in;
+   transition: 0.2s ease-in;
+}
+
+.services .wrap-service12 .img-hover:hover {
+	-webkit-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.services .wrap-service12 .uneven-box {
+    margin-top: 100px;
+}
+
+.services .btn-info-gradiant {
+		background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.services .btn-info-gradiant:hover {
+		background: #316ce8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+    background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.services .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+		.service-12 .wrap-service-12 .uneven-box {
+			margin-top: 0px;
+	}
+}

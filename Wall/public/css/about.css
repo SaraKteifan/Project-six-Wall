@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.row .card{
+    width: 240px;
+    height: 300px;
+    position: relative;
+    border: none;
+    border-radius: 70px 10px 70px 10px;
+    box-shadow: 5px 10px 10px #111111;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 40px auto;
+}
+.row .card img{
+    width: 105%;
+    height: 105%;
+    object-fit: cover;
+    
+}
+.row .card .content{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background: linear-gradient(45deg, #d4d6c8a0, rgba(186, 24, 27, 0.50));
+    transition: all 0.5s linear;
+}
+.row .card .content.box1{
+    clip-path: circle(0% at 0 100%);
+}
+.row .card:hover .content.box1{
+    clip-path: circle(141.4% at 0 100%);
+}
+
+.row .card .content.box2{
+    clip-path: circle(0% at 50% 50%);
+}
+.row .card:hover .content.box2{
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+
+.row .card .content h4{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+.row .card .content h6{
+    font-size: 18;
+    color: white;
+    padding-bottom: 1px;
+}
+.row .card .content ul{
+    display: block;
+}
+.row .card .content ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.row .card .content ul li a{
+    display: block;
+    color: white !important;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s linear;
+}
+.row .card .content ul li:hover a{
+    transform: translateY(-10px);
+}
+.carda{margin-left: 40px;
+    margin-top: 20px;
+}
+
+.purplee{color: purple;}
+.yellowe{color: orangered;}
+.greene{color: green;}
+.bluee{color:blue;}
+.breadcrumbNav{
+    background: rgb(0 0 0 / 10%) !important;
+     padding: 9px 40px;
+     margin-bottom: 100px;
+  }
+  .breadcrumb{
+    --bs-breadcrumb-margin-bottom:0!important;
+    padding:0!important;
+  }
+  .first-a{
+  color: gray;
+     text-decoration: none;}
+     .first-a:hover{
+      color: #d73e49;
+     }
